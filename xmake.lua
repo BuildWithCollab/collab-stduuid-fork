@@ -1,0 +1,5 @@
+target("stduuid")
+    set_kind("headeronly")
+    set_languages("c++17")
+    add_headerfiles("include/(**.h)")
+    add_includedirs("include", { public = true })
